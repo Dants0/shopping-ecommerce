@@ -104,7 +104,7 @@ const Footer = () =>{
             <Left>
                 <Logo>DG</Logo>
                 <Desc>
-                    A pretensão deste site é apenas puro conhecimento e pratica acadêmico
+                    A pretensão deste site é apenas puro conhecimento e prática acadêmica
                 </Desc>
                 <SocialContainer>
                     <SocialIcon color="3B5999">

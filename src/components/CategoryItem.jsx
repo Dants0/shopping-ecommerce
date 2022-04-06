@@ -34,11 +34,17 @@ const Title = styled.h1`
 
 const Button = styled.button`
     border:none;
+    border-radius: 50%;
     padding: 10px;
     background-color: white;
     color:gray;
     cursor: pointer;
     font-weight: 600;
+    :hover{
+        background-color:#1b7474cc;
+        opacity: 10;
+        color:white;
+    }
 `;
 
 const CategoryItem = ({ item }) => {
@@ -47,7 +53,7 @@ const CategoryItem = ({ item }) => {
       <Image src={item.img} />
       <Info>
         <Title>{item.title}</Title>
-        <Button>SHOP NOW</Button>
+        <Button>COMPRE AGORA</Button>
       </Info>
     </Container>
   );
