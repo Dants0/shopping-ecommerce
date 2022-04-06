@@ -14,3 +14,5 @@ const Container = styled.div`
 const Announcement = () => {
     return <Container>Super Promoção! Frete grátis em compras acima de $50</Container>
 }
+
+export default Announcement;
