@@ -6,7 +6,6 @@ import{
     Pinterest,
     Room,
     Twitter,
-    Whatsapp,
 } from "@material-ui/icons";
 import styled from "styled-components";
 import { mobile } from "../responsive";
@@ -47,6 +46,10 @@ const SocialIcon = styled.div`
     align-items:center;
     justify-content:center;
     margin-right:20px;
+    cursor:pointer;
+    :hover{
+        background-color:#1b7474cc;
+    }
 `;
 
 const Center = styled.div`
@@ -112,9 +115,6 @@ const Footer = () =>{
                     </SocialIcon>
                     <SocialIcon color="E60023">
                         <Pinterest/>
-                    </SocialIcon>
-                    <SocialIcon color="128c7e">
-                        <Whatsapp/>
                     </SocialIcon>
                 </SocialContainer>
             </Left>

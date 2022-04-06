@@ -73,12 +73,12 @@ const Navbar = () =>{
                 <Left>
                     <Language>PT-BR</Language>
                     <SearchContainer>
-                        <Input placeholder="Pesquisar"/>
+                        <Input type="search" placeholder="Pesquisar"/>
                         <Search style={{color: "gray", fontSize:18}}/>
                     </SearchContainer>
                 </Left>
                 <Center>
-                    <Logo>DG.</Logo>
+                    <Logo>DG</Logo>
                 </Center>
                 <Right>
                     <MenuItem>SIGN UP</MenuItem>

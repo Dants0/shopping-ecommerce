@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import {mobile} from "../responsive";
-import {Send, SkipNext} from "@material-ui/icons";
+import {Send} from "@material-ui/icons";
+import React from "react";
 
 const Container = styled.div`
   height: 60vh;
