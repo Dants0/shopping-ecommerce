@@ -157,7 +157,7 @@ const Product = () => {
               <Amount>1</Amount>
               <Add />
             </AmountContainer>
-            <Button>ADD TO CART</Button>
+            <Button>ADD AO CARRINHO</Button>
           </AddContainer>
         </InfoContainer>
       </Wrapper>
