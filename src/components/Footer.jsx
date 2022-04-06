@@ -71,12 +71,15 @@ const List = styled.ul`
     list-style:none;
     display:flex;
     flex-wrap:wrap;
+    cursor:pointer;
 `;
 
 const ListItem = styled.li`
     width:50%;
     padding:20px;
-
+    :hover{
+        text-decoration: underline;
+    }
 `;
 
 const Right = styled.div`
