@@ -12,7 +12,7 @@ export const sliderItems = [
       title: "LOUNGEWEAR LOVE",
       desc: "NÃO SE COMPROMETA COM O ESTILO! OBTENHA UM DESCONTO DE 30% PARA OS RECÉM-CHEGADOS.",
       bg: "fbf0f4",
-    },
+    }
   ];
 
   export const categories = [

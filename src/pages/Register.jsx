@@ -53,6 +53,9 @@ const Button = styled.button`
   background-color: teal;
   color: white;
   cursor: pointer;
+  :hover{
+    background-color:#008080cc
+  }
 `;
 
 const Register = () => {
@@ -61,12 +64,12 @@ const Register = () => {
       <Wrapper>
         <Title>CRIAR UMA CONTA</Title>
         <Form>
-          <Input placeholder="Nome" />
-          <Input placeholder="Sobrenome" />
-          <Input placeholder="Usuario" />
-          <Input placeholder="Email" />
-          <Input placeholder="Senha" />
-          <Input placeholder="Confirmar Senha" />
+          <Input type="text" placeholder="Nome" />
+          <Input type="text" placeholder="Sobrenome" />
+          <Input type="text" placeholder="Usuario" />
+          <Input type="email" placeholder="Email" />
+          <Input type="password" placeholder="Senha" />
+          <Input type="password" placeholder="Confirmar Senha" />
           <Agreement>
             Ao criar uma conta, eu autorizo o processamento de minha
             dados de acordo com o <b>PRIVACY POLICY</b>

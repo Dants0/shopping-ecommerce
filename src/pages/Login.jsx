@@ -55,17 +55,18 @@ const Link = styled.a`
   font-size: 12px;
   text-decoration: underline;
   cursor: pointer;
+  color: black;
 `;
 
 const Login = () => {
   return (
     <Container>
       <Wrapper>
-        <Title>SIGN IN</Title>
+        <Title>ENTRAR</Title>
         <Form>
-          <Input placeholder="username" />
-          <Input placeholder="password" />
-          <Button>LOGIN</Button>
+          <Input type="text" placeholder="username" />
+          <Input type="password" placeholder="password" />
+          <Button>ENTRAR</Button>
           <Link>NÃO LEMBRA SUA SENHA?</Link>
           <Link>CRIAR CONTA NOVA</Link>
         </Form>

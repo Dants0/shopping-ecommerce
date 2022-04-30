@@ -44,6 +44,10 @@ const Button = styled.button`
   border: none;
   background-color: teal;
   color: white;
+  cursor:pointer;
+  :hover{
+    background-color: #008080cc;
+  }
 `;
 
 const Newsletter = () => {
